@@ -1,4 +1,4 @@
-# POPS
+# Terraform-autovars-cli
 
 terraform-autovars-cli is a simple CLI tool written in Go that helps your team run Terraform commands (`plan`, `apply`, `output`) from within a stack directory. It automatically detects the current stack based on your working directory and gathers Terraform variable files from environment-specific directories. It also supports decryption of secured variable files using `sops`.
 
