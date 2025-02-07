@@ -32,33 +32,12 @@ project/
 
 ## Prerequisites
 
-- Go (for building the tool)
 - Terraform
 - `sops` (for decrypting secured variable files)
 
 ## Installation
 
-### Build from Source
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/pops.git
-cd pops
-```
-
-Build the executable:
-
-#### On Linux/Mac:
-```bash
-go build -o pops main.go
-```
-
-#### On Windows (using PowerShell):
-```powershell
-go build -o pops.exe main.go
-```
-## Optionally get executable from release
+## Get executable from release
 - there is pops.exe file in the release to download
 
 ### Add to your PATH (optional):
